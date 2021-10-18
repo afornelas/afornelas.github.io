@@ -21,8 +21,10 @@
 title: Adrian's Portfolio
 email: afornelas@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Adrian Francisco Duran Ornelas, an aspiring Aerospace Engineer, I'll
-  expand this here with a comment on holisitc engineering in the near future.
+  I am Adrian Francisco Duran Ornelas, an aspiring Aerospace Engineer who is not afraid
+  to work in other disciplines of engineering. While my dream lies in engineering in the 
+  stars, my passion lies in designing novel objects that help people across all of the major 
+  engineering fields.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  afornelas
