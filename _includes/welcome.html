@@ -1,0 +1,217 @@
+<style>
+    body {
+        margin: 0px;
+    }
+
+    .main {
+        display: flex;
+        width: 99%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .article {
+        flex: 1;
+        margin-top: 12px;
+        margin-left: 2px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #333333;
+        background-color: #ffd27d;
+        padding: 4%;
+    }
+
+    .left {
+        order: -1;
+        width: 250px;
+        float: left;
+        padding: 6px;
+        background-color: #FFED9E;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #333;
+        margin-top: 12px;
+        margin-left: 2px;
+        margin-right: 12px;
+        font-weight: bold;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #0070DF;
+        box-sizing: border-box;
+        margin-left: 16px;
+        padding-top: 6px;
+        padding-right: 6px;
+        padding-bottom: 6px;
+        padding-left: 6px;
+        margin-top: 12px;
+        font-weight: bold;
+    }
+
+    .right-bottom {
+        display: none;
+    }
+
+    .footer {
+        height: 60px;
+        width: 99%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #F4F4F4;
+        margin-bottom: 4px;
+        padding-top: 8px;
+        text-align: center;
+        margin-top: 12px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333333;
+    }
+
+    .left-foot {
+        display: none;
+    }
+
+    .right-foot {
+        display: none;
+    }
+
+    .padding
+    {
+        padding: 10px 10px 10px;
+    }
+
+    @media (max-width:1100px) {
+        .right-bottom {
+            display: none;
+        }
+    }
+
+    @media (max-width:920px) {
+        .right {
+            display: none;
+        }
+
+        .left-foot {
+            display: none;
+        }
+
+        .right-foot {
+            display: block;
+            height: 70px;
+            width: 99%;
+            margin-right: auto;
+            margin-left: auto;
+            color: #666666;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            margin-top: 4px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 2px;
+            font-size: 12px;
+            padding-top: 6px;
+            margin-top: 18px;
+        }
+    }
+
+    @media (max-width:650px) {
+        .left {
+            display: none;
+        }
+
+        .left-foot {
+            display: block;
+            height: 115px;
+            width: 99%;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #FFED9E;
+            color: #666666;
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 2px;
+            font-size: 16px;
+            margin-top: 18px;
+        }
+
+        .right-foot {
+            display: block;
+            height: 70px;
+            width: 99%;
+            margin-right: auto;
+            margin-left: auto;
+            color: #666666;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            margin-top: 4px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 2px;
+            font-size: 12px;
+            padding-top: 6px;
+            margin-top: 18px;
+        }
+    }
+</style>
+
+<div class="main">
+    <div class="left">
+        <center style="margin:0; position: relative; top:50%; -ms-transform:translateY(-50%); transform:translateY(-50%);">
+            <img src="/assets/misc/profile_picture.jpeg" alt="profile photo" style="width:210px;height:210px;padding:20px;border-radius: 5rem;">
+            <p style="font-weight: bolder;color: #414141;line-height: 240%;">
+                {{ include.hats }}
+            </p>
+        </center>
+    </div>
+    <div class="article">
+        <p style="font-size: 35px;font-weight: bolder;color: #414141;line-height: 110%;">
+            Adrian Francisco Duran Ornelas
+        </p>
+        <p style="font-size: 20px;font-weight: bolder;color: #414141;line-height: 130%;">
+            University of California, Irvine '23
+
+            Aerospace Engineering
+        </p>
+        <p>
+            {{ include.description }}
+        </p>
+    </div>
+    <div class="right"> 
+        <center>
+            <button onclick="window.location.href='{% link /assets/misc/resume.pdf %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">Resume</button>
+            <button onclick="window.location.href='{% link projects.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">Projects</button>
+            <button onclick="window.location.href='{% link hobbies.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">Hobbies</button>
+            <button onclick="window.location.href='https://www.linkedin.com/in/afornela/';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">LinkedIn</button>
+        </center>
+    </div>
+</div>
+
+<div class="left-foot">
+    <center>
+        <p>
+            <p style="float: left;">
+                <img src="/assets/misc/profile_picture.jpeg" alt="profile photo" style="width:75px;height:75px;padding:20px;border-radius: 2rem;">
+            </p>
+            <p style="font-weight: bolder;color: #414141;padding: 2%;line-height: 200%;"> 
+                {{ include.hats }}
+            </p>
+        </p>
+    </center>
+</div>
+
+<div class="right-foot">
+    <center>
+        <p>
+            <button onclick="window.location.href='{% link /assets/misc/resume.pdf %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin:2%;font-family:Poppins;">Resume</button>
+            <button onclick="window.location.href='{% link projects.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin:2%;font-family:Poppins;">Projects</button>
+            <button onclick="window.location.href='{% link hobbies.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin:2%;font-family:Poppins;">Hobbies</button>
+        </p>
+    </center>
+</div>
+
+<br>

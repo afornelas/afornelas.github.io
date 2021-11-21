@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  "HyperXite VI"
+category: Projects
 ---
-
-# HyperXite VI
-
-![HyperXite Logo](/assets/HyperXite/hx_eng_logo.png)
 
 > [Hyperxite.com](https://www.hyperxite.com/) - Innovating the future of travel, one prototype at a time
 
+![HyperXite Logo](/assets/HyperXite/hx_eng_logo.png)
+
 Throughout the 2020-2021 academic school year, I served on HyperXite VI's controls subsystem as an Embedded Systems Engineer to compete at the [European Hyperloop Week International Design Competition](https://hyperloopweek.com/).
+
+<!--more-->
 
 
 ## Design Overview

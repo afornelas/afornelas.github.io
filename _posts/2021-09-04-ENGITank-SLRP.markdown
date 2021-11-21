@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  "ENGITank Sea Life Revival Project"
+category: Projects
 ---
-
-# Sea Life Revival Project
 
 > Saving California's coastline, one buoy at a time
 
-![Buoy](/assets/SLRP/buoy.png)
-
 Sea Life Revival Project was a design submission for Engineering Student Council's ENGITank design competition. Through this 10 week design competition, 8 teams race to engineer a product that addresses a modern day issue and compete for a cash prize.
+
+{% include image.html image="SLRP/buoy.png" alt_text="Buoy" height="15rem" %}
+
+<!--more-->
 
 ## Meet the team
 

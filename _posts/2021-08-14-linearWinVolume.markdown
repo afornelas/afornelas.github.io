@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "linearWinVolume"
+category: Projects
 ---
-
-# [linearWinVolume](https://github.com/afornelas/linearWinVolume)
 
  > A Python implementation of pycaw that doesn't function on a decibel scale
 
 In order to linearly interface with Windows' volume control in a manner that matches the UI's output, linearWinVolume computes a logarithmic regression from user collected sample data points. From there it optionally applies a linear correction value such that when setting and getting the volume state it is accurate to rougly ~1 unit of Windows volume at all times.
+
+<!--more-->
 
 The project is hosted at PyPI at [https://pypi.org/project/linearwinvolume/](https://pypi.org/project/linearwinvolume/) and at Github at [https://github.com/afornelas/linearWinVolume](https://github.com/afornelas/linearWinVolume)
 
