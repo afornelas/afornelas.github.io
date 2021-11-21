@@ -33,6 +33,8 @@ excerpt_separator: <!--more-->
 # Build settings
 theme: minima
 show_excerpts: true
+sass:
+  sass_dir: ./_sass
 plugins:
   - jekyll-feed
 
