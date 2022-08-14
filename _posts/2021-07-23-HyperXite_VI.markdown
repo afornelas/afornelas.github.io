@@ -4,7 +4,7 @@ title:  "HyperXite VI"
 category: Projects
 ---
 
-> [Hyperxite.com](https://www.hyperxite.com/) - Innovating the future of travel, one prototype at a time
+> [Hyperxite.com](https://www.hyperxite.com/) - Innovating the future of travel, Embedded Systems Engineer
 
 ![HyperXite Logo](/assets/HyperXite/hx_eng_logo.png)
 

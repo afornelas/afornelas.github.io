@@ -39,4 +39,6 @@ The buoy assembly was designed with ease of use in mind. We have developed a win
 
 Electrically, the design consists of tightly packed microcontrollers inside a waterproofed cylinder to ensure their functionality when in the open ocean. The embedded system consists of a Raspberry Pi 4 as the main processor, and several additional sensors to collect telemetry from the enviorment. In order to ensure the buoy is powered, it is outfitted with six watt solar panels that charge a lithium ion battery throughout the day when the sun is avaiable. In order to communicate with the buoy, it is outfitted with a two kilometer range LoRa Radio, easily linking to a SLRP computer on the coast line.
 
-The full presentation is available [here](/assets/SLRP/ENGITank2021SeaLifeRevivalProject.pdf).
+The full presentation is below:
+
+{% include pdf.html pdf="/SLRP/ENGITank2021SeaLifeRevivalProject.pdf" height ="500em" %}
