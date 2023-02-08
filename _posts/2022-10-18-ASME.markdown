@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "American Society of Mechanical Engineers @ UCI"
+category: Leadership
+---
+
+> 3 roles in one! From panelist, to Project Manager, to Webmaster
+
+{% include banner.html image = "ASME/Anteater.png" alt_text = "ASME Logo" height = "7rem" radius = "0" %}
+
+I first joined ASME@UCI in order to get more experience in leading groups of engineers and I never could have imagined it would turn out as it did. I've met some of the greatest people I know through working with the club, I've taught in front of hundreds of people with SolidWorks tutorials, and so much more.
+
+<!--more-->
+
+## Disambiguation
+
+For my work as the ASME webmaster, see here: [ASME Website]({% post_url 2022-12-14-ASME Website %})
+
+For my work as the ASME Project Manager (and starting the Human Powered Vehicle engineering project at UCI) see here: [HPVC Project Manager]({% post_url 2022-12-12-HPVC %})
+
+## ASME Board
+
+On the ASME@UCI Board I am the head of the Projects Committee, a group of people formed of stakeholders and advisors to the Human Powered Vehicle Competition project and meet weekly. In coordination with the Projects Committee and greater ASME, we work together to plan events, fundraisers, and learning opportunities for the whole of engineering at our school.
+
+I've hosted several workshops across different skills that we encourage to enrich our members. Some prominent ones are our SolidWorks and Resume workshops.
+
+Displayed here are two of my SolidWorks Workshops in advanced surfacing and CSWP preparation. The advanced surfacing features workshop (left) was created to be displayed side by side with SolidWorks over a zoom meeting and optimized for local viewing for greater accessibility during the pandemic. On the right is a more traditional workshop that goes over advanced features such as parametric equation driven design in SolidWorks to make CAD designs more robust.
+
+{% capture PDF_Organic_Solidworks %}
+{% include pdf.html pdf="ASME/Organic_Solidworks_Workshop.pdf"%}
+{% endcapture %}
+
+{% capture PDF_CSWP_Workshop %}
+{% include pdf.html pdf="ASME/CSWP_Workshop.pdf"%}
+{% endcapture %}
+
+{% include pair.html object_1 = PDF_Organic_Solidworks object_2 = PDF_CSWP_Workshop %}
+
+In addition to my work hosting development events, I frequently help out with hosting more social events for our engineering student population to lay back and take a break from classes. Some of our most popular events at ASME have been our Project Pandemonium, Trivia night, and many more! Come check out more at [asmeuci.com](https://asmeuci.com)!
+
+{% include image.html image = "ASME/ASME_Student_Section.jpg" alt_text = "ASME and Friends" height = "20rem" %}

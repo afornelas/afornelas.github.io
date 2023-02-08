@@ -19,28 +19,30 @@
         color: #333333;
         background-color: #ffd27d;
         padding: 4%;
+        border-radius: 2rem;
     }
 
-    .left {
-        order: -1;
+    .right {
+        order: 1;
         width: 250px;
-        float: left;
+        float: right;
         padding: 6px;
         background-color: #FFED9E;
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
         color: #333;
+        border-radius: 2rem;
         margin-top: 12px;
-        margin-left: 2px;
-        margin-right: 12px;
+        margin-right: 2px;
+        margin-left: 24px;
         font-weight: bold;
     }
 
-    .right {
+    .left {
         display: flex;
         align-items: center;
         width: 150px;
-        float: right;
+        float: left;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         color: #0070DF;
@@ -54,7 +56,7 @@
         font-weight: bold;
     }
 
-    .right-bottom {
+    .left-bottom {
         display: none;
     }
 
@@ -73,11 +75,11 @@
         color: #333333;
     }
 
-    .left-foot {
+    .right-foot {
         display: none;
     }
 
-    .right-foot {
+    .left-foot {
         display: none;
     }
 
@@ -86,45 +88,50 @@
         padding: 10px 10px 10px;
     }
 
-    @media (max-width:1100px) {
-        .right-bottom {
+    @media (min-width:1200px) {
+        /* Super Scale Displays */
+        .article {
+            min-width: 30rem;
+            max-width: 70rem;
+        }
+        .left-bottom {
+            display: none;
+        }
+        .left {
             display: none;
         }
     }
 
-    @media (max-width:920px) {
-        .right {
-            display: none;
+    @media (max-width:1200px) {
+        /* Normal 1080p Target */
+        .article {
+            min-width: 30rem;
         }
 
-        .left-foot {
-            display: none;
-        }
-
-        .right-foot {
-            display: block;
-            height: 70px;
-            width: 99%;
-            margin-right: auto;
-            margin-left: auto;
-            color: #666666;
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            margin-top: 4px;
-            box-sizing: border-box;
-            padding-left: 10px;
-            padding-right: 2px;
-            font-size: 12px;
-            padding-top: 6px;
-            margin-top: 18px;
-        }
-    }
-
-    @media (max-width:650px) {
         .left {
             display: none;
         }
 
+        .right-foot {
+            display: none;
+        }
+
         .left-foot {
+            display: none;
+        }
+    }
+
+    @media (max-width:900px) {
+        /* Mobile Page */
+        .article {
+            min-width: 10rem;
+        }
+
+        .right {
+            display: none;
+        }
+
+        .right-foot {
             display: block;
             height: 115px;
             width: 99%;
@@ -140,7 +147,7 @@
             margin-top: 18px;
         }
 
-        .right-foot {
+        .left-foot {
             display: block;
             height: 70px;
             width: 99%;
@@ -160,58 +167,44 @@
 </style>
 
 <div class="main">
-    <div class="left">
-        <center style="margin:0; position: relative; top:50%; -ms-transform:translateY(-50%); transform:translateY(-50%);">
-            <img src="/assets/misc/profile_picture.jpeg" alt="profile photo" style="width:210px;height:210px;padding:20px;border-radius: 5rem;">
-            <p style="font-weight: bolder;color: #414141;line-height: 240%;">
-                {{ include.hats }}
-            </p>
-        </center>
-    </div>
     <div class="article">
         <p style="font-size: 35px;font-weight: bolder;color: #414141;line-height: 110%;">
             Adrian Francisco Duran Ornelas
         </p>
-        <p style="font-size: 20px;font-weight: bolder;color: #414141;line-height: 130%;">
-            University of California, Irvine '23
+        <p style="font-size: 18px;color: #414141;line-height: 130%;">
+            <b>University of California, Irvine '27</b><br>
 
-            Aerospace Engineering
+            Ph.D, Material Science & Engineering<br>
+
+            <b>University of California, Irvine '23</b><br>
+
+            Bachelors of Science, Aerospace Engineering
         </p>
-        <p>
+        <p style="color: #414141;">
             {{ include.description }}
         </p>
     </div>
-    <div class="right"> 
-        <center>
-            <button onclick="window.location.href='{% link /assets/misc/resume.pdf %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">Resume</button>
-            <button onclick="window.location.href='{% link projects.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">Projects</button>
-            <button onclick="window.location.href='{% link hobbies.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">Hobbies</button>
-            <button onclick="window.location.href='https://www.linkedin.com/in/afornela/';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin: 10%;width: 120px;font-family:Poppins;">LinkedIn</button>
+    <div class="right">
+        <center style="margin:0; position: relative; top:50%; -ms-transform:translateY(-50%); transform:translateY(-50%);">
+            <p style="margin-bottom: 0px;font-size: 18px;">
+                Experience
+            </p>
+            <p style="font-weight: lighter;font-size: 14px;">                
+                <!-- <a style="color: #414141;text-decoration: underline;" href="">Material Science</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="">Aerospace Engineering</a><br> -->
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2021-07-23-HyperXite_VI %}">Embedded Systems</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2022-07-25-HyperXite_VII %}">Pneumatic Brakes</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2023-2-7-HyperXite_8 %}">Electromagnetic Propulsion</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2022-12-12-HPVC %}">Project Management</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2022-10-04-steam_Controller_Synth %}">Acoustics</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2022-10-18-ASME %}">SOLIDWORKS</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2022-12-14-ASME Website %}">Web Development</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2021-09-04-ENGITank-SLRP %}">Computer Graphics</a><br>
+                <a style="color: #414141;text-decoration: underline;" href="{% post_url 2021-08-14-linearWinVolume %}">Python Data Science</a><br>
+                <!-- <a style="color: #414141;text-decoration: underline;" href="VA">Intention Recognition</a><br> -->
+            </p>
         </center>
     </div>
-</div>
-
-<div class="left-foot">
-    <center>
-        <p>
-            <p style="float: left;">
-                <img src="/assets/misc/profile_picture.jpeg" alt="profile photo" style="width:75px;height:75px;padding:20px;border-radius: 2rem;">
-            </p>
-            <p style="font-weight: bolder;color: #414141;padding: 2%;line-height: 200%;"> 
-                {{ include.hats }}
-            </p>
-        </p>
-    </center>
-</div>
-
-<div class="right-foot">
-    <center>
-        <p>
-            <button onclick="window.location.href='{% link /assets/misc/resume.pdf %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin:2%;font-family:Poppins;">Resume</button>
-            <button onclick="window.location.href='{% link projects.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin:2%;font-family:Poppins;">Projects</button>
-            <button onclick="window.location.href='{% link hobbies.markdown %}';" type="button" class="btn mb-2 mb-md-0 btn-tertiary btn-block btn-round" style="margin:2%;font-family:Poppins;">Hobbies</button>
-        </p>
-    </center>
 </div>
 
 <br>

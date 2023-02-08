@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BMES Make-A-Thon: Gait Monitor"
-categories: Projects On-going
+category: Engineering
 ---
 
 > An open-source gait monitoring solution as a collaboration between the Biomedical Engineering Society @ UCI and the Children's Hospital of Orange County

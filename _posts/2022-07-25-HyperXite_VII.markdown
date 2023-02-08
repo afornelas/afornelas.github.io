@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HyperXite VII"
-category: Projects
+category: Engineering
 ---
 
 > [Hyperxite.com](https://www.hyperxite.com/) - Innovating the future of travel, Braking Engineer

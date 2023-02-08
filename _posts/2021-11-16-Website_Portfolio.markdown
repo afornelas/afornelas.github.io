@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Website Portfolio"
-category: Projects
+category: Engineering
 ---
 
 > An opportunity to learn web development and show off my projects all at once

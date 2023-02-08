@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ENGITank Sea Life Revival Project"
-category: Projects
+category: Engineering
 ---
 
 > Saving California's coastline, one buoy at a time

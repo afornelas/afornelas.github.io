@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "linearWinVolume"
-category: Projects
+category: Engineering
 ---
 
  > A Python implementation of pycaw that doesn't function on a decibel scale

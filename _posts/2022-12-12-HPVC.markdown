@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Human Powered Vehicle Project"
+category: Leadership
+---
+
+> From an idea at a meeting, to an officially recognized project, as Project Manager running this 28 person team has been a blast
+
+{% include banner.html image = "HPVC/banner.jpg" alt_text = "HPVC Banner" height = "7rem" %}
+
+During March of 2022 I founded the Human Powered Vehicle Competition (HPVC) project at UC Irvine and acted as its project manager for the 2022-2023 development cycle. HPVC is an undergraduate engineering team working with the American Society of Mechanical Engineers at UCI (ASME@UCI) and officially endorsed by the UCI Henry Samueli School of Engineering. I started this project because I wanted to give undergraduate engineers a chance to learn technical skills with a recognized hands on project.
+
+<!--more-->
+
+## Why start a new project?
+
+As a freshman, I was given a unique opportunity to work on UCI's HyperXite Senior Design project, an opportunity that netted me a [national award for my work in control systems]({% post_url 2021-07-23-HyperXite_VI %}#:~:text=CAMP%20Statewide%20Undergraduate%20Research%20Symposium%20%40%20University%20of%20California). I recognize that because of UCI's policies on senior design projects that my personal experience was an exception as opposed to an opportunity that the school can proudly offer. That experience inspired me to create a Senior Design Project that is uniquely positioned to offer quality engineering experience to all people interested in improving their skills.
+
+As a result, my ambitions blossomed into one of the most well funded and active senior design projects on UCI's campus. While we don't send rockets into the sky, or send parts to other countries, HPVC makes a meaningful difference in many engineers lives and serves as a critical stepping stone for many engineers to begin moving on to more diverse projects.
+
+## Project Management
+
+HPVC is an interdisciplinary project with many different logistical "moving parts", and as such it is imperative that the project has clear and kind management so that our unguided young engineers can be helped towards being their best selves. My project is made up of 26 hardworking individuals split across three different disciplines. I lead by example, creating a project culture that is warm and understanding and emphasizing the importance of learning from our mistakes. Together we are working towards creating an efficient and speedy human powered vehicle to compete in the ASME E-Fest National Competition.
+
+As Project Manager, I handle many administration tasks such as funding allocation, team coordination, process management, and hosting integration meetings. Through this I closely coordinate with my team to ensure that we are all working towards the same goals in an efficient and timely matter that pushes us all forward as engineers. Through the establishment of this project, I hope to have created a positive mark on the campus which will outlive my stay at UCI.
+
+
+## HPVC, the project
+
+We are looking to build an advanced human-powered, electric bike over the course of three quarters. During the school year, we are looking to construct a basic prototype of the vehicle and start manufacturing and constructing the life-size bike. By april we plan to finish building, test, modify and race our vehicle.
+
+{%include pdf.html pdf="HPVC/MAE_93_Poster.pdf"%}
+
+### Dynamics
+
+The dynamics subteam is focused on the moving parts of the human powered vehicle, that is, transferring human motion into vehicle motion. We will also be covering steering and brakes. Our goal is to make the fastest, most efficient vehicle possible. By doing so, we will all gain experience for future engineering endeavors! Dynamic's most important tasks are:
+
+- Steering
+- Drive Train
+- Braking
+
+{% include image.html image = "HPVC/dynamics.png" alt_text = "HPVC drivetrain analysis" height = "20rem" %}
+
+### Statics
+
+The Statics subteam is dedicated to the structural integrity of the vehicle and as such consists of Chassis (frame), Aerodynamics (decrease drag), and Rollover Prevention System (RPS). Our Goals are:
+
+- Low Center of Gravity
+- Lightweight
+- Safe redundant design
+
+{% include image.html image = "HPVC/statics.png" alt_text = "HPVC Frame Model" height = "20rem" %}
+
+
+### Electrical
+
+The electrical subteam is in charge of powering and controlling the vehicle using motors, microcontrollers, sensors, and a Printed Circuit Board (PCB).
+
+- Interfacing with bike Motor and other sensors
+- Circuit Design in KiCad
+- Prototype and Debug circuits
+- Soldering
+
+{% include image.html image = "HPVC/electronics.png" alt_text = "HPVC and assorted cables" height = "20rem" %}
+
+### Sponsors Academic year 2022-2023
+
+Henry Samueli School of Engineering at UC, Irvine
+
+- Professor, David Copp
+
+American Society of Mechanical Engineers at UCI
+
+- President, Anthony Chin
+- Project Manager, Adrian Ornelas
